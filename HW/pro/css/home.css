@@ -102,3 +102,8 @@ a:hover {
   left:124px;
   top:0;
 }
+
+#introPNG, #membPNG, #projPNG, #studPNG, #prizPNG{
+  width: 64px,;
+  height: 64px;
+}

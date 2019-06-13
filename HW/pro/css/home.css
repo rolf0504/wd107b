@@ -1,0 +1,120 @@
+#nqu {
+  position: absolute;
+  right: 20px;
+}
+
+#class319 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 28px;
+}
+
+p {
+  text-align: center;
+}
+
+div.content {
+    text-align: center;
+} 
+
+.member {
+  margin-top: 60px;
+  background-color: #74d8cbc1;
+  border-radius: 25px;
+  padding: 25px; 
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+    padding: 3px
+}
+
+
+.center
+{
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  text-align: center;
+  vertical-align:middle;
+}
+
+ul {
+  padding:0;
+  margin:0;
+  list-style: none;
+  background:#b5f7e394;
+  text-align:center;
+}
+
+
+ul li {
+  display:inline-block;
+  position:relative;
+  padding: 14px 16px;
+}
+
+
+a:link, a:visited {
+  text-decoration: none;
+  color: rgb(66, 64, 64);
+  font-weight:bold;
+  min-width: 90px;
+}
+
+ul li a, ul li a:visited {
+  display:block;
+  width:auto;
+  height:auto;
+  line-height:15px;
+  padding:10px;
+  text-align:center;
+
+}
+
+
+ul li a:hover {
+  display:block;
+  color:#000;
+  background:rgba(132, 236, 210, 0.822);
+  line-height:15px;
+  padding:10px;
+}
+
+
+ul li ul, ul li:hover ul li ul {
+  display: none;
+}
+
+
+ul li:hover ul {
+  display:block;
+  position:absolute; 
+  top:auto;
+  left:0;
+  height:auto;
+
+}
+
+
+ul li:hover ul li a {
+  display:block;
+  text-align:center; 
+  border-bottom:1px solid rgb(255, 255, 255);
+
+}
+
+ul li:hover ul li:hover ul {
+  display:block;
+  position:absolute;
+  left:124px;
+  top:0;
+
+}
